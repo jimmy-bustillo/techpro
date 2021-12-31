@@ -1,0 +1,17 @@
+:root {
+  /* Fonts */
+  --fuentePrincipal: "Roboto", sans-serif;
+  --fuenteSecundaria: "Lato", sans-serif;
+
+  /* Colores */
+  --primario: #1073ba;
+  --secundario: #00da55;
+  --gris: #3b3b3b;
+  --blanco: #fff;
+  --negro: #1f1e1e;
+  --grisClaro: #e1e1e1;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+}
