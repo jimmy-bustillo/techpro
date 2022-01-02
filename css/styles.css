@@ -53,6 +53,7 @@ h3 {
 img {
   width: 100%;
   display: block;
+  height: auto;
 }
 
 /* Utilidades */
@@ -64,4 +65,17 @@ body {
   font-family: var(--fuentePrincipal);
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+/* Header */
+.header {
+  background-color: var(--negro);
+  padding: calc(var(--separacion) * 3) 0;
+  color: var(--blanco);
+}
+@media (min-width: 768px) {
+  .contenido-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
