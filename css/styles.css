@@ -372,6 +372,7 @@ body {
 .formulario input[type="text"] {
   width: 100%;
   padding: 1rem;
+  border: 1px solid var(--grisClaro);
 }
 .formulario input[type="submit"] {
   width: 100%;
@@ -382,4 +383,27 @@ body {
   font-size: 2rem;
   font-weight: 900;
   border: none;
+}
+
+.footer {
+  margin-top: 15rem;
+}
+@media (min-width: 425px) {
+  .footer {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+  }
+}
+
+.footer p {
+  text-align: center;
+  font-family: var(--fuenteSecundaria);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: var(--primario);
+  padding: 2rem, 0;
 }
